@@ -2,10 +2,10 @@
   "name": "todo-list-backend",
   "version": "1.0.0",
   "description": "Back-End da aplicação Todo-List Full-Stack",
-  "main": "index.js",
+  "main": "./build/server.js",
   "scripts": {
     "dev": "ts-node-dev --respawn --transpile-only --ignore-watch node_modules --no-notify src/server.ts",
-    "start": "node build/service.js"
+    "start": "node build/server.js"
   },
   "repository": {
     "type": "git",
